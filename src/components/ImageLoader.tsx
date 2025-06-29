@@ -59,7 +59,7 @@ const ImageLoader = ({ onLoadComplete }: ImageLoaderProps) => {
             setLoadedCount((prev) => prev + 1);
             resolve();
           };
-          img.src = `/images/${imageInfo.src}`;
+          img.src = `/react-gsap-scroll/images/${imageInfo.src}`;
         });
       });
 

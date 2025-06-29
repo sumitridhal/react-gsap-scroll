@@ -489,7 +489,7 @@ const Hero = () => {
         {currentImages.map((imageData: ImageData, index: number) => (
           <div key={`${imageData.src}-${index}`} className="floating-image">
             <img
-              src={`/images/${imageData.src}`}
+              src={`/react-gsap-scroll/images/${imageData.src}`}
               alt={imageData.alt}
               loading="lazy"
             />
