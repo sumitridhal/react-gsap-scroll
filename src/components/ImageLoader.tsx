@@ -1,7 +1,9 @@
-import { useState, useEffect, useRef } from "react";
-import { useImages, ALL_IMAGES } from "../contexts/ImageContext";
-import type { ImageData } from "../contexts/ImageContext";
+import { useEffect, useRef, useState } from "react";
 
+import { ALL_IMAGES } from "../constants";
+import { useImages } from "../contexts/ImageContext";
+
+import type { ImageData } from "../contexts/ImageContext";
 interface ImageLoaderProps {
   onLoadComplete: () => void;
 }
@@ -82,7 +84,7 @@ const ImageLoader = ({ onLoadComplete }: ImageLoaderProps) => {
     return () => {
       ignoreRef.current = true;
     };
-  }, [onLoadComplete, totalImages]);
+  }, [onLoadComplete, totalImages, setLoadedImages, setIsLoading]);
 
   return (
     <div className="image-loader">
