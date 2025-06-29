@@ -203,7 +203,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🎬 Demo
 
-Visit the live demo: [UNREAL VESSELS](your-demo-url-here)
+Visit the live demo: [UNREAL VESSELS](https://sumitridhal.github.io/gsap-scroll-text-animation)
 
 ## Recent Technical Resolutions
 
