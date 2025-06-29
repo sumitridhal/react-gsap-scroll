@@ -2,6 +2,8 @@
 
 A modern, animated website built with React, TypeScript, Vite, and GSAP featuring advanced loading animations, scroll-triggered effects, and dynamic text splitting.
 
+[![GSPA scroll & text animation](./public/thumb.jpg)](https://vimeo.com/1097267216/36b4ce11b0?ts=0)
+
 ## 🌟 Features
 
 - **Advanced Loading Animations**: Two different loading screen styles
